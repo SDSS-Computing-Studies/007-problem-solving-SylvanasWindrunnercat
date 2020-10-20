@@ -56,3 +56,21 @@ def main():
     print("Current epoch time is " + str(curTime))
 
 main()
+
+import pyautogui
+
+pyautogui.PAUSE = 2.5
+
+pyautogui.FAILSAFE = True
+
+x,y=pyautogui.position()
+
+print(x,y)
+
+pyautogui.click(1400,300)
+
+pyautogui.click(958,94)
+
+pyautogui.moveTo(963,547)
+
+pyautogui.click(963,547)
